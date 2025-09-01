@@ -1,5 +1,5 @@
 # Meso-MRI with 3DEPI
-This repository contains the data processing scripts for "Whole-brain meso-vein imaging in living humans using fast 7 T MRI" manuscript (Gulban et al. 2025).
+This repository contains the data processing scripts for **Whole-brain meso-vein imaging in living humans using fast 7 T MRI** manuscript (Gulban et al. 2025).
 See https://doi.org/10.5281/zenodo.14145584 for the associated dataset.
 
 ## Citation
