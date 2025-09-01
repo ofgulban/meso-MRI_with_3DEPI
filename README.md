@@ -1,14 +1,10 @@
-# meso-MRI_with_3DEPI
-This is a work in progress repository for processing whole brain 3D EPI images acquired at 0.35 mm iso. resolution.
-
-Data processing scripts for <TODO: Link Paper here>,
+# Meso-MRI with 3DEPI
+This repository contains the data processing scripts for "Whole-brain meso-vein imaging in living humans using fast 7 T MRI" manuscript (Gulban et al. 2025).
 
 ## Citation
-- TODO: Put citation here
+- Gulban, O.F., Stirnberg, R., Tse, D.H.Y., Pizzuti, A., Koiso, K., Archila-Melendez, M.E., Huber, L., Bollmann, S., Kay, K., Ivanov, D. (2025). Whole-brain meso-vein imaging in living humans using fast 7 T MRI. BioRxiv (Preprint)
 
 ## Dependecies
-TODO: I am going to update the dependencies as I organize more of my scripts here.
-
 | Package                                                 | Tested version |
 |---------------------------------------------------------|----------------|
 | [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php)    | 3.8.0          |
@@ -18,13 +14,12 @@ TODO: I am going to update the dependencies as I organize more of my scripts her
 | - [NumPy](http://www.numpy.org/)                        | 1.15.4         |
 | - [NiBabel](http://nipy.org/nibabel/)                   | 2.5.1          |
 
-
 ## Data processing overview
-<TODO: Please refer to the Methods section of my paper, and the flowcharts inluded here to see what each python script is doing.>
+Please refer the methods section of our paper and see the file names of python script in association to our manuscript.
 
 There are 2 important steps to run any script:
 1. Check top level input file paths within each script.
 2. Execute scripts in your command line by running e.g. `python ./04_motion_correct.py`.
 
 # License
-The project is licensed under [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+This project is licensed under [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
